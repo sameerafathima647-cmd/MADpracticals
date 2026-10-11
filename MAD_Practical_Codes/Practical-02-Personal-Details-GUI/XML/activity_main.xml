@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/myprofile" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FULL NAME"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#6C757D"/>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xyz"
+        android:textSize="22sp"
+        android:textColor="#212529"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="EMAIL ADDRESS"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#6C757D"/>
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xyz@gmail.com"
+        android:textSize="18sp"
+        android:textColor="#212529"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHONE NUMBER"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#6C757D"/>
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+91 1234567890"
+        android:textSize="18sp"
+        android:textColor="#00ff00"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOCATION"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#6C757D"/>
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Tirunelveli, Tamil Nadu, India"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        />
+</LinearLayout>

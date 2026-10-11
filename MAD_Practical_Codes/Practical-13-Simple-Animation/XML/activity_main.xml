@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Demo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="64dp" />
+
+    <!-- The target we will animate -->
+    <!-- You can replace the background color with an android:src image if you have one -->
+    <ImageView
+        android:id="@+id/ivTarget"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/jerry"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/btnAnimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate!"
+        android:textSize="18sp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="16dp"/>
+
+</LinearLayout>
